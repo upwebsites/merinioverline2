@@ -25,13 +25,7 @@ export default function PresentationSection() {
             Chi Siamo
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-inter leading-relaxed">
-            Da oltre 20 anni, <img
-              src="/images/logo/overline_merini_svg.svg"
-              alt="Merini Overline Logo"
-              className="h-6 inline-block align-baseline mx-1"
-              style={{ maxWidth: '100px' }}
-            />
-            è il partner di fiducia per chi ama gli animali. 
+            Da oltre 20 anni, Merini Overline è il partner di fiducia per chi ama gli animali. 
             Offriamo una vasta gamma di prodotti di alta qualità, dal cibo ai giocattoli, 
             dalle attrezzature veterinarie ai sistemi di sicurezza più avanzati.
           </p>
