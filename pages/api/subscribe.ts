@@ -1,14 +1,9 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
-import fs from 'fs';
-import path from 'path';
+import { NextApiRequest, NextApiResponse } from 'next';
+import { PrismaClient } from '@prisma/client';
 
-export const config = {
-  api: {
-    bodyParser: true,
-  },
-};
+const prisma = new PrismaClient();
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Metodo non consentito' });
   }
@@ -27,10 +22,12 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 
   try {
-    const filePath = path.join(process.cwd(), 'emails.txt');
-    fs.appendFileSync(filePath, email + '\n');
+    await prisma.email.create({ data: { email } });
     return res.status(200).json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
+    if (err.code === 'P2002') {
+      return res.status(409).json({ error: 'Email già registrata' });
+    }
     return res.status(500).json({ error: 'Impossibile salvare la mail: ' + String(err) });
   }
 } 
