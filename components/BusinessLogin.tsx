@@ -51,7 +51,18 @@ export default function BusinessLogin({ onSuccess }: BusinessLoginProps) {
       loginBusiness(email);
       onSuccess();
     } else {
-      setErrors({ email: 'Errore durante la registrazione. Riprova.' });
+      let msg = 'Errore durante la registrazione. Riprova.';
+      try {
+        const data = await res.json();
+        if (typeof data.error === 'string') msg = data.error;
+      } catch {}
+      // Se la mail è già registrata, permetti comunque l'accesso
+      if (res.status === 409) {
+        loginBusiness(email);
+        onSuccess();
+        return;
+      }
+      setErrors({ email: msg });
     }
   };
 
