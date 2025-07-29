@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Crocchette Premium per Cani",
+    "price": 45.99,
+    "image": "https://images.pexels.com/photos/1337974/pexels-photo-1337974.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Alimentazione",
+    "description": "Crocchette di alta qualità per cani adulti, ricche di proteine e nutrienti essenziali.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "2",
+    "name": "Trasportino per Gatti",
+    "price": 89.99,
+    "image": "https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Trasporto",
+    "description": "Trasportino sicuro e confortevole per gatti, ideale per viaggi e visite veterinarie.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "3",
+    "name": "Gioco Interattivo per Cani",
+    "price": 29.99,
+    "image": "https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Giochi",
+    "description": "Gioco stimolante per l'intelligenza del tuo cane, mantiene attivo e divertito.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "4",
+    "name": "Lettiera Autolevigante",
+    "price": 249.99,
+    "image": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Igiene",
+    "description": "Lettiera automatica di ultima generazione con sistema di pulizia autonomo.",
+    "inStock": true,
+    "isBusinessOnly": true
+  },
+  {
+    "id": "5",
+    "name": "Collare GPS Tracciamento",
+    "price": 199.99,
+    "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Sicurezza",
+    "description": "Collare con GPS integrato per localizzare sempre il tuo animale domestico.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "6",
+    "name": "Sistema Veterinario Diagnostico",
+    "price": 1299.99,
+    "image": "https://images.pexels.com/photos/6235663/pexels-photo-6235663.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Veterinario",
+    "description": "Sistema diagnostico professionale per cliniche veterinarie.",
+    "inStock": true,
+    "isBusinessOnly": true
+  },
+  {
+    "id": "7",
+    "name": "Guinzaglio Estensibile",
+    "price": 24.99,
+    "image": "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Passeggio",
+    "description": "Guinzaglio retrattile di alta qualità, perfetto per passeggiate sicure.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "8",
+    "name": "Mangiatoia Automatica",
+    "price": 149.99,
+    "image": "https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Alimentazione",
+    "description": "Distributore automatico di cibo programmabile con controllo porzioni.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "9",
+    "name": "Kit Pulizia Professionale",
+    "price": 79.99,
+    "image": "https://images.pexels.com/photos/4790268/pexels-photo-4790268.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Igiene",
+    "description": "Set completo per la toelettatura professionale di cani e gatti.",
+    "inStock": true,
+    "isBusinessOnly": true
+  },
+  {
+    "id": "10",
+    "name": "Cuccia Ortopedica",
+    "price": 159.99,
+    "image": "https://images.pexels.com/photos/1452717/pexels-photo-1452717.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Riposo",
+    "description": "Cuccia ergonomica con supporto ortopedico per cani anziani.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "11",
+    "name": "Tiragraffi Gigante",
+    "price": 189.99,
+    "image": "https://images.pexels.com/photos/1444321/pexels-photo-1444321.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Giochi",
+    "description": "Tiragraffi multi-livello con zone di gioco e riposo per gatti.",
+    "inStock": true,
+    "isBusinessOnly": false
+  },
+  {
+    "id": "12",
+    "name": "Attrezzatura Clinica Completa",
+    "price": 2499.99,
+    "image": "https://images.pexels.com/photos/6235144/pexels-photo-6235144.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Veterinario",
+    "description": "Set completo di strumenti per cliniche veterinarie professionali.",
+    "inStock": true,
+    "isBusinessOnly": true
+  }
+]
